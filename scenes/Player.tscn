@@ -15,7 +15,7 @@ shape = SubResource("1")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
-current = false
+current = true
 
 [node name="GunModel" type="MeshInstance3D" parent="Camera3D"]
 transform = Transform3D(-10, 0, -3.25841e-06, 0, 10, 0, 3.25841e-06, 0, -10, 0.2, -0.2, -0.6)
